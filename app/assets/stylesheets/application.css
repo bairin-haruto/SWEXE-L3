@@ -13,3 +13,67 @@
  *= require_tree .
  *= require_self
  */
+/* application.css */
+/* application.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6ecf0; /* Twitterの背景色に近い */
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #1da1f2; /* Twitterの青色 */
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#sidebar {
+  width: 150px; /* サイドバーの幅を広げる */
+  float: left;
+  background-color: #ffffff; /* 白背景 */
+  border-right: 1px solid #e1e8ed; /* 薄いグレーのボーダー */
+  padding: 20px;
+  height: 100vh; /* サイドバーを全高に */
+}
+
+#content {
+  margin-left: 260px; /* サイドバーの幅に合わせて左マージンを調整 */
+  padding: 20px;
+}
+
+#footer {
+  clear: both;
+  background-color: #1da1f2; /* 薄い灰色 */
+  color: #657786; /* Twitterのテキスト色 */
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #e1e8ed; /* 薄いグレーのボーダー */
+}
+
+/* リンクのスタイル */
+a {
+  color: #1da1f2; /* Twitterのリンク色 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* ホバー時に下線を追加 */
+}
+
+/* ボタンスタイル */
+button {
+  background-color: #1da1f2; /* ボタンの背景色 */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+background-color: #1991db; /* ホバー時の色 */
+}

@@ -1,0 +1,6 @@
+<%= form_with model: @tweet, local: true do |form| %>
+  <%= form.label :content %>
+  <%= form.text_area :content %>
+
+  <%= form.submit "Post Tweet" %>
+<% end %>
